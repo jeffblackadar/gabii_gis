@@ -26,7 +26,7 @@ a00000015.gdbtable
 a00000016.gdbtable
 a00000017.gdbtable
 a00000018.gdbtable
-a00000019.gdbtable
+a00000019.gdbtable, lines, SU_lines
 a0000001a.gdbtable
 a0000001b.gdbtable, points, Surface_topography,
 a0000001c.gdbtable
@@ -36,7 +36,7 @@ a0000001f.gdbtable
 a00000020.gdbtable
 a00000021.gdbtable
 a00000022.gdbtable
-a00000023.gdbtable
+a00000023.gdbtable, points, infrastructure, infrastructure
 a00000024.gdbtable
 a00000025.gdbtable
 a00000026.gdbtable
@@ -44,7 +44,7 @@ a00000027.gdbtable
 a00000028.gdbtable, poly, ap_feats, large polys of a few features
 a00000029.gdbtable, poly, SU_Feat, polys of main features
 a0000002a.gdbtable
-a0000002b.gdbtable
+a0000002b.gdbtable, poly, su_outlines, su outlines
 a0000002c.gdbtable
 a0000002d.gdbtable
 a0000002e.gdbtable, poly, ORG_illustration_conventions
