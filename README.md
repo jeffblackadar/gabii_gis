@@ -101,3 +101,15 @@ NULL	5	GDB_ItemTypes	0
 NULL	4	GDB_Items	0
 NULL	11	Fixed_Points	0
 NULL	10	finds	0
+
+
+## au_dga tifs
+
++ Created a gcp .points file with 6 geo reference points from layer a0000000e SU_poly
++ Open georeferencer
++ Check target SRS is EPSG:102093
++ change output file name to _102093
++ File | Load GCP Points... AU DGA_00_template.points
++ Move 6 points to correct place on image
++ Start georefererncing
++ Check results in QGIS
