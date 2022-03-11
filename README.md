@@ -18,7 +18,7 @@ example:. file 15 "SU_pts" is a0000000f.gdbtable
 + a0000000c.gdbtable, points, many points SU_Number, PM_Number
 + a0000000d.gdbtable, points, core_sample_points, 1 point
 + a0000000e.gdbtable, poly, SU_poly, polys of the main structures
-+ a0000000f.gdbtable
++ a0000000f.gdbtable, points, SU_points,
 + a00000010.gdbtable
 + a00000011.gdbtable
 + a00000012.gdbtable
