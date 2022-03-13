@@ -20,31 +20,24 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a0000000d.gdbtable|13|core_sample_points| points| core_sample_points 1 point|
 |a0000000e.gdbtable|14|SU_poly| poly| Polys of the main structures|
 |a0000000f.gdbtable|15|SU_pts| point| |
+|a00000010.gdbtable|16|Topo|||
+|a00000011.gdbtable|17|micromorphology_samples|||
+|a00000012.gdbtable|18|sections|||
+|a00000013.gdbtable|19|section_points|||
+|a00000014.gdbtable|20 soil_samples|||
+|a00000015.gdbtable|21|BM|||
+|a00000016.gdbtable|22|BS|||
+|a00000017.gdbtable|23|Q2010_Concession_line|||
+|a00000018.gdbtable|24|Quarrying|||
+|a00000019.gdbtable|25|SU_lines|lines||
+|a0000001a.gdbtable|26|quarry_points|||
+|a0000001b.gdbtable|27|Surface_topography|points||
+|a0000001c.gdbtable|28|SU_digital_poly|||
+|a0000001d.gdbtable|29|core_sample_SU|||
+|a0000001e.gdbtable|30|Core_Samples|||
+|a0000001f.gdbtable|31|Church|||
 
 
-
-
-
-
-
-
-
-|a00000010.gdbtable|
-|a00000011.gdbtable|
-|a00000012.gdbtable|
-|a00000013.gdbtable|
-|a00000014.gdbtable|
-|a00000015.gdbtable|
-|a00000016.gdbtable|
-|a00000017.gdbtable|
-|a00000018.gdbtable|
-|a00000019.gdbtable| lines, SU_lines
-|a0000001a.gdbtable|
-|a0000001b.gdbtable| points, Surface_topography,
-|a0000001c.gdbtable|
-|a0000001d.gdbtable|
-|a0000001e.gdbtable|
-|a0000001f.gdbtable|
 |a00000020.gdbtable|
 |a00000021.gdbtable|
 |a00000022.gdbtable|
@@ -82,22 +75,8 @@ wkt_geom ID Name FileFormat
 46 ORG_illustration_conventions 0
 45 GDB_ReplicaChanges 0
 44 GroundPenetratingRadar 0
-19 section_points 0
-18 sections 0
-17 micromorphology_samples 0
-16 Topo 0
-23 Q2010_Concession_line 0
-22 BS 0
-21 BM 0
-20 soil_samples 0
-27 Surface_topography 0
-26 quarry_points 0
-25 SU_lines 0
-24 Quarrying 0
-31 Church 0
-30 Core_Samples 0
-29 core_sample_SU 0
-28 SU_digital_poly 0
+
+
 
 
 
