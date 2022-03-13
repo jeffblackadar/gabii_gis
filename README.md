@@ -44,38 +44,17 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a00000025.gdbtable|37|interpolated_polygons|||
 |a00000026.gdbtable|38|interpolated_polylines|||
 |a00000027.gdbtable|39|geophys_feats|||
+|a00000028.gdbtable|40|ap_feats|poly|large polys of a few features|
+|a00000029.gdbtable|41|SU_Feat|poly|polys of main features|
+|a0000002a.gdbtable|42|illustration_conventions|||
+|a0000002b.gdbtable|43|su_outlines|poly||
+|a0000002c.gdbtable|44|GroundPenetratingRadar|||
+|a0000002d.gdbtable|45|GDB_ReplicaChanges|||
+|a0000002e.gdbtable|46|ORG_illustration_conventions|poly||
+|a0000002f.gdbtable|47|ORG_SU_poly|poly|The road past the church, the south east|
 
 
-|a00000028.gdbtable| poly, ap_feats, large polys of a few features
-|a00000029.gdbtable| poly, SU_Feat, polys of main features
-|a0000002a.gdbtable|
-|a0000002b.gdbtable| poly, su_outlines, su outlines
-|a0000002c.gdbtable|
-|a0000002d.gdbtable|
-|a0000002e.gdbtable| poly, ORG_illustration_conventions
-|a0000002f.gdbtable| poly, ORG_SU_poly, The road past the church, the south east
-|a00000001.gdbtable| GDB_SystemCatalog
-
-wkt_geom ID Name FileFormat
-
-
-
-43 su_outlines 0
-42 illustration_conventions 0
-41 SU_Feat 0
-40 ap_feats 0
-47 ORG_SU_poly 0
-46 ORG_illustration_conventions 0
-45 GDB_ReplicaChanges 0
-44 GroundPenetratingRadar 0
-
-
-
-
-
-
-
-au_dga tifs
+# au_dga tifs
 + Created a gcp .points file with 6 geo reference points from layer a0000000e SU_poly
 + Open georeferencer
 + Check target SRS is EPSG:102093
@@ -84,3 +63,4 @@ au_dga tifs
 + Move 6 points to correct place on image
 + Start georefererncing
 + Check results in QGIS
+
