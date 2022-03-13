@@ -8,19 +8,27 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a00000001.gdbtable|1 |GDB_SystemCatalog|||
 |a00000002.gdbtable|2|GDB_DBTune|||
 |a00000003.gdbtable|3|GDB_SpatialRefs|||
+|a00000004.gdbtable|4|GDB_Items|||
+|a00000005.gdbtable|5|GDB_ItemTypes|||
+|a00000006.gdbtable|6|GDB_ItemRelationships|||
+|a00000007.gdbtable|7|GDB_ItemRelationshipTypes|||
+|a00000008.gdbtable|8|GDB_ReplicaLog|||
+|a00000009.gdbtable|9|EXCAV|||
+|a0000000a.gdbtable|10|finds|points|finds|
+|a0000000b.gdbtable|11|Fixed_Points| points|a few fixed points|
+|a0000000c.gdbtable|12|PM| points| many points SU_Number PM_Number|
+|a0000000d.gdbtable|13|core_sample_points| points| core_sample_points 1 point|
+|a0000000e.gdbtable|14|SU_poly| poly| Polys of the main structures|
+|a0000000f.gdbtable|15|SU_pts| point| |
 
 
-|a00000004.gdbtable|
-|a00000005.gdbtable|
-|a00000006.gdbtable|
-|a00000007.gdbtable|
-|a00000009.gdbtable|
-|a0000000a.gdbtable| points, finds
-|a0000000b.gdbtable| points, a few fixed points
-|a0000000c.gdbtable| points, many points SU_Number, PM_Number
-|a0000000d.gdbtable| points, core_sample_points, 1 point
-|a0000000e.gdbtable| poly, SU_poly, polys of the main structures
-|a0000000f.gdbtable| points, SU_points,
+
+
+
+
+
+
+
 |a00000010.gdbtable|
 |a00000011.gdbtable|
 |a00000012.gdbtable|
@@ -56,12 +64,8 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a00000001.gdbtable| GDB_SystemCatalog
 
 wkt_geom ID Name FileFormat
-9 EXCAV 0
-8 GDB_ReplicaLog 2
-15 SU_pts 0
-14 SU_poly 0
-13 core_sample_points 0
-12 PM 0
+
+
 35 infrastructure 0
 34 Infra_lines 0
 33 INFRA 0
@@ -96,12 +100,8 @@ wkt_geom ID Name FileFormat
 28 SU_digital_poly 0
 
 
-7 GDB_ItemRelationshipTypes 0
-6 GDB_ItemRelationships 0
-5 GDB_ItemTypes 0
-4 GDB_Items 0
-11 Fixed_Points 0
-10 finds 0
+
+
 
 au_dga tifs
 + Created a gcp .points file with 6 geo reference points from layer a0000000e SU_poly
