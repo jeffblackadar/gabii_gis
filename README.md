@@ -24,7 +24,7 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a00000011.gdbtable|17|micromorphology_samples|||
 |a00000012.gdbtable|18|sections|||
 |a00000013.gdbtable|19|section_points|||
-|a00000014.gdbtable|20 soil_samples|||
+|a00000014.gdbtable|20|soil_samples|||
 |a00000015.gdbtable|21|BM|||
 |a00000016.gdbtable|22|BS|||
 |a00000017.gdbtable|23|Q2010_Concession_line|||
@@ -36,16 +36,16 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a0000001d.gdbtable|29|core_sample_SU|||
 |a0000001e.gdbtable|30|Core_Samples|||
 |a0000001f.gdbtable|31|Church|||
+|a00000020.gdbtable|32|Church_points|||
+|a00000021.gdbtable|33|INFRA|||
+|a00000022.gdbtable|34|Infra_lines|||
+|a00000023.gdbtable|35|infrastructure|points||
+|a00000024.gdbtable|36|ext_bs|||
+|a00000025.gdbtable|37|interpolated_polygons|||
+|a00000026.gdbtable|38|interpolated_polylines|||
+|a00000027.gdbtable|39|geophys_feats|||
 
 
-|a00000020.gdbtable|
-|a00000021.gdbtable|
-|a00000022.gdbtable|
-|a00000023.gdbtable| points, infrastructure, infrastructure
-|a00000024.gdbtable|
-|a00000025.gdbtable|
-|a00000026.gdbtable|
-|a00000027.gdbtable|
 |a00000028.gdbtable| poly, ap_feats, large polys of a few features
 |a00000029.gdbtable| poly, SU_Feat, polys of main features
 |a0000002a.gdbtable|
@@ -59,14 +59,7 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 wkt_geom ID Name FileFormat
 
 
-35 infrastructure 0
-34 Infra_lines 0
-33 INFRA 0
-32 Church_points 0
-39 geophys_feats 0
-38 interpolated_polylines 0
-37 interpolated_polygons 0
-36 ext_bs 0
+
 43 su_outlines 0
 42 illustration_conventions 0
 41 SU_Feat 0
