@@ -54,7 +54,7 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 |a0000002f.gdbtable|47|ORG_SU_poly|poly|The road past the church, the south east|
 
 
-# au_dga tifs
+# au_dga tifs - Gabii Saggi Area Urbana (San Primo) Tav. 
 + Created a gcp .points file with 6 geo reference points from layer a0000000e SU_poly
 + Open georeferencer
 + Check target SRS is EPSG:102093
@@ -63,4 +63,8 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 + Move 6 points to correct place on image
 + Start georefererncing
 + Check results in QGIS
+
+There are 8, Tav 1 - 8.
+Tav 1 - 4 have layers 1 - 4
+Tav 5 - 8 also have layers 1 - 4. They are (Metrix)
 
