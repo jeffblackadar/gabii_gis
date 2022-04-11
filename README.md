@@ -64,7 +64,19 @@ These files are numbered with hexadecimal. Refer to the table below for the full
 + Start georefererncing
 + Check results in QGIS
 
-There are 8, Tav 1 - 8.
-Tav 1 - 4 have layers 1 - 4
-Tav 5 - 8 also have layers 1 - 4. They are (Metrix)
++ There are 8, Tav 1 - 8.
++ Tav 1 - 4 have layers 1 - 4
++ Tav 5 - 8 also have layers 1 - 4. They are (Metrix)
+
+# Events
+
+not yet in order 
+
++ Excavation of 6 room building in south east. Between March and May 1999.
++ Rain and flooded road.
++ Placement of small walls
++ Removal of small walls
+
+
+
 
